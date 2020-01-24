@@ -2,16 +2,16 @@
 
 public abstract class Shape
 {
-    private String name;
+    private int uniqueID;
     
-    public Shape(String name)
+    public Shape(int id)
     {
-        this.name = name;
+        this.uniqueID = id;
     }
     
-    public String getName()
+    public int getID()
     {
-        return this.name;
+        return this.uniqueID;
     }
     
     public abstract double getArea();

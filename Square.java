@@ -2,9 +2,9 @@
 
 public class Square extends Rectangle
 {
-    public Square(double sideLength)
+    public Square(int id, double sideLength)
     {
-        super("Square", sideLength, sideLength);
+        super(id, sideLength, sideLength);
     }
     
     public double getSideLength()

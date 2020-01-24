@@ -3,8 +3,8 @@
 public class Circle extends Ellipse {
 	private double radius;
 
-	public Circle(double radius) {
-		super("Circle", radius, radius);
+	public Circle(int id, double radius) {
+		super(id, radius, radius);
 		this.radius = radius;
 	}
 
