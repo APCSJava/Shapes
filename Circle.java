@@ -1,6 +1,7 @@
 
 
 public class Circle extends Ellipse {
+	
 	private double radius;
 
 	public Circle(int id, double radius) {

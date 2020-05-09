@@ -10,7 +10,7 @@ public class Tester {
 		Shape s4 = new Square(4, 3);
 		Shape[] shapes = {s1, s2, s3, s4};
 		for (int i = 0; i< shapes.length; i++) {
-			System.out.println(shapes[i].getArea());
+			System.out.println(shapes[i]+" "+shapes[i].getArea());
 		}
 	}
 }

@@ -22,8 +22,4 @@ public class Rectangle extends Shape
     public double getWidth(){
         return width;
     }
-    
-    public String toString(){
-        return "Rectangle with width: " + width + " and height: " + height;
-    }
 }

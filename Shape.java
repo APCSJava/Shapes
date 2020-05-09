@@ -17,6 +17,6 @@ public abstract class Shape
     public abstract double getArea();
     
     public String toString() {
-    	  return this.getClass().getSimpleName()+": "+uniqueID;
+    	  return this.getClass().getSimpleName()+" #"+uniqueID;
     }
 }
